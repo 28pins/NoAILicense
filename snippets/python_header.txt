@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: MIT AND LicenseRef-NoAiLicense-Addendum
+# SPDX-FileCopyrightText: <YEAR> <AUTHOR>
+#
+# This file is licensed under the MIT License with the NoAiLicense Addendum.
+# You may use, modify, and distribute this file under the MIT License terms,
+# EXCEPT that this file may NOT be used to train, fine-tune, validate, or
+# otherwise improve any machine learning, generative AI, large language model
+# (LLM), or similar technology, whether existing or yet to be invented.
+# See LICENSE and ADDENDUM.md for full terms.

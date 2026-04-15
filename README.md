@@ -24,7 +24,7 @@ Copy the modified MIT License (`LICENSE`) or append `ADDENDUM.md` to your existi
 
 NoAiLicense is a **license addendum** — a short legal clause you add on top of your existing open-source license (e.g., MIT, Apache 2.0, GPL) to explicitly forbid the use of your work for training, fine-tuning, or otherwise improving any artificial intelligence or machine-learning system.
 
-It does **not** replace your main license; it supplements it with an additional restriction.
+It does **not** replace your main license; it supplements it with an additional restriction.  However, there is an MIT Livense with the text applied in LICENSE.md; you are free to copy that (as long as you are human).
 
 ---
 

@@ -24,7 +24,7 @@ Copy the modified MIT License (`LICENSE`) or append `ADDENDUM.md` to your existi
 
 NoAiLicense is a **license addendum** — a short legal clause you add on top of your existing open-source license (e.g., MIT, Apache 2.0, GPL) to explicitly forbid the use of your work for training, fine-tuning, or otherwise improving any artificial intelligence or machine-learning system.
 
-It does **not** replace your main license; it supplements it with an additional restriction.  However, there is an MIT Livense with the text applied in LICENSE.md; you are free to copy that (as long as you are human).
+It does **not** replace your main license; it supplements it with an additional restriction.  However, there is an MIT License with the text applied in LICENSE.md; you are free to copy that (as long as you are human).
 
 ---
 
@@ -123,27 +123,6 @@ Append the addendum after the GPL text or reference `ADDENDUM.md`. Note that GPL
 
 ---
 
-## SPDX Metadata
-
-NoAiLicense does not yet have an official SPDX identifier. Until one is assigned, use the following convention for SPDX expressions:
-
-| Scenario | Suggested SPDX Expression |
-|---|---|
-| MIT + NoAiLicense addendum | `MIT AND LicenseRef-NoAiLicense-Addendum` |
-| Apache 2.0 + addendum | `Apache-2.0 AND LicenseRef-NoAiLicense-Addendum` |
-| GPL-3.0 + addendum | `GPL-3.0-only AND LicenseRef-NoAiLicense-Addendum` |
-
-**Per-file SPDX header example (MIT + addendum):**
-
-```
-SPDX-License-Identifier: MIT AND LicenseRef-NoAiLicense-Addendum
-SPDX-FileCopyrightText: <YEAR> <AUTHOR>
-```
-
-**`LICENSES/LicenseRef-NoAiLicense-Addendum.txt`** — to be REUSE-compliant, create this file in your repo with the full addendum text as its content. See [REUSE specification](https://reuse.software/spec/) for details.
-
----
-
 ## License Header Snippets
 
 Ready-to-use file headers are provided in the [`snippets/`](snippets/) directory:
@@ -174,18 +153,6 @@ The script will:
 - Prepend the Python header to `*.py` files
 - Prepend the JavaScript header to `*.js`, `*.ts`, `*.mjs` files
 - Skip files that already contain the NoAiLicense header
-
----
-
-## Related Projects & Resources
-
-- [SPDX License List](https://spdx.org/licenses/) — standard machine-readable license identifiers
-- [REUSE Software](https://reuse.software/) — tool for SPDX-compliant per-file copyright and license info
-- [Creative Commons NoAI](https://creativecommons.org/2021/03/04/should-a-creative-commons-license-prohibit-use-of-licensed-work-in-ai-training-datasets/) — CC's discussion on AI training restrictions
-- [BigScience OpenRAIL](https://www.licenses.ai/blog/2022/8/26/bigscience-open-rail-m-license) — responsible AI license family
-- [ai-license](https://github.com/nicklvsa/ai-license) — similar AI restriction license project
-- [No-AI-LICENSE](https://github.com/NoAI-License/license) — another community effort in the same space
-
 ---
 
 ## Contributing
